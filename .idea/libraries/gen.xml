@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gen">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../VitamioBundle/vitamio/gen" />
+      <root url="file://$PROJECT_DIR$/../VitamioBundle/vitamio/src" />
+      <root url="file://$PROJECT_DIR$/../VitamioBundle/vitamio-sample/gen" />
+    </SOURCES>
+  </library>
+</component>

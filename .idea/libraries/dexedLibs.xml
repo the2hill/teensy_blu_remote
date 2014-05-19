@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-7cc3ab7f4c10c2ffb76df843dfc84bf1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/junit-7f33f3064f2bb33351076e5d7993ad3f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/org.hamcrest.core_1.1.0.v20090501071000-dabb078e46c96d2580b433cd8bd87de8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

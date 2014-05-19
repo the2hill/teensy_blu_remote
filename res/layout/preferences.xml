@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Video Server Settings" >
+
+        <EditTextPreference
+            android:defaultValue="http://192.168.1.102"
+            android:dialogMessage="Type the host address"
+            android:dialogTitle="Host Address"
+            android:key="host_address"
+            android:title="Video Server Host Address" />
+
+        <EditTextPreference
+            android:defaultValue="8080"
+            android:dialogMessage="Type the host port"
+            android:dialogTitle="Host Port "
+            android:key="host_port"
+            android:title="Video Server Host Port" />
+        
+        <EditTextPreference
+            android:defaultValue="photo.jpg"
+            android:dialogMessage="url to feed"
+            android:dialogTitle="URL to feed"
+            android:key="feed_url"
+            android:title="Video Server Feed URL" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="Joysticks Data" >
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="preceeding char"
+            android:dialogTitle="Preceeding Char"
+            android:key="preceeding_char"
+            android:title="Preceeding Char" />
+
+        <EditTextPreference
+            android:defaultValue="&amp;"
+            android:dialogMessage="trailing char"
+            android:dialogTitle="Trailing Char"
+            android:key="trailing_char"
+            android:title="Trailing Char" />
+
+        <EditTextPreference
+            android:defaultValue="1000-2100"
+            android:dialogMessage="left pad y range"
+            android:dialogTitle="Left Y Range"
+            android:key="left_y_range"
+            android:title="Left Y range" />
+
+        <EditTextPreference
+            android:defaultValue="0-180"
+            android:dialogMessage="right pad x range"
+            android:dialogTitle="Right X Range"
+            android:key="right_x_range"
+            android:title="Right X range" />
+
+        <EditTextPreference
+            android:defaultValue="A"
+            android:dialogMessage="left pad identifier"
+            android:dialogTitle="Left Identifier"
+            android:key="lef_identifier"
+            android:title="Left Identifier" />
+
+        <EditTextPreference
+            android:defaultValue="B"
+            android:dialogMessage="right pad identifier"
+            android:dialogTitle="Right Identifier"
+            android:key="right_identifier"
+            android:title="Right Identifier" />
+
+        <ListPreference
+            android:defaultValue="200"
+            android:dialogTitle="Send data"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:key="updates_interval"
+            android:summary="intervals between joysticks data"
+            android:title="Updates interval" />
+
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="When idle, send data"
+            android:entries="@array/timeoutCount"
+            android:entryValues="@array/timeoutCountValues"
+            android:key="maxtimeout_count"
+            android:summary="option to send data when idle"
+            android:title="Max timeout count" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
